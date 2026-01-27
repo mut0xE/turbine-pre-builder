@@ -19,7 +19,7 @@ This project demonstrates how to mint, send, and trade SPL tokens on Solana Devn
 [View Mint Transaction](https://explorer.solana.com/tx/53p8wQTV5ZAUxmcY7gitfLbXDEDbhXN5Nhxc4iDbDmFChihn4xGL6LTE8C3R49rPATrVuouGptpWY648WV2iym7B?cluster=devnet)
 
 ## Token Transfer
-### **Transfer Transaction **
+### **Transfer Transaction**
 - Transferred RC tokens
 [View Transfer Transaction](https://explorer.solana.com/tx/2afxLPrkJkqiScYBySqc4QVAPK15eTY4uhUVUF7YA96Hbw4eRk1AFhkTh77kLgxfDUXvcGsPcu6JFbnvVRvkcYsN?cluster=devnet)
 
