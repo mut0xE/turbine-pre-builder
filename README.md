@@ -49,19 +49,20 @@ This section demonstrates minting a custom NFT on Solana Devnet, uploading metad
 - Send Transaction:
 ![NFT Sent](./images/nft_sent.png)
 
-[View Mint Transaction](https://orbmarkets.io/tx/2MUqWC2GMpKaBngDkqKE4LGb67WEyypQd2kG2EZAwV4qXjky87ASLDhmF311qwTMnqqa5TnZCispaoRUEamdopj?cluster=devnet&tab=summary)
+[View Sent Transaction](https://orbmarkets.io/tx/2MUqWC2GMpKaBngDkqKE4LGb67WEyypQd2kG2EZAwV4qXjky87ASLDhmF311qwTMnqqa5TnZCispaoRUEamdopj?cluster=devnet&tab=summary)
 - Receive Transaction:
 ![NFT Received](./images/nft_receive.png)
 
-[View Mint Transaction](https://orbmarkets.io/tx/4bFHBAtY4gp5vWUmqNm3SWPYotjn7tRuV761HRKxYS2nQHuEwocThqKGdAvcJxxKj4XE8uDAn9VzMUwUbUkasbWm?cluster=devnet&tab=summary)
+[View Receive Transaction](https://orbmarkets.io/tx/4bFHBAtY4gp5vWUmqNm3SWPYotjn7tRuV761HRKxYS2nQHuEwocThqKGdAvcJxxKj4XE8uDAn9VzMUwUbUkasbWm?cluster=devnet&tab=summary)
 
 ### **Reflection (Problems & Solutions)**
 **Problem:**  
-- Trading NFTs manually requires trust.You have to trust the other person to send their NFT back after receiving yours.
+- Trading NFTs manually requires trust. You have to trust the other person to send their NFT back after receiving yours.
+
 **Solution:**  
 - Using an **On-Chain Escrow Vault Program**.
-- With escrow, both NFTs are deposited into a secure vault program, and the program only completes the swap if *both* parties have fulfilled their part.  
-This ensures:
+- With escrow, Both NFTs are deposited into a secure vault program, and the program only completes the swap if both parties have fulfilled their part.  
+- This ensures: 
 - Either both transfers succeed, or both fail  
 - No trust is required  
 - No risk of one-sided trades
@@ -72,6 +73,7 @@ Week 2:
 - Verified mint address and token details
 - Included mint transaction hash
 - Performed a token transfer and included its transaction hash
+
 Week 3:
 - Successfully minted a custom NFT (RED) on Solana Devnet  
 - Uploaded image and metadata to Irys  
